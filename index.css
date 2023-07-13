@@ -1,0 +1,81 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Oswald";
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+/* Resto de estilos... */
+
+header {
+    position: relative;
+    overflow: hidden;
+}
+
+.emoji{
+    width: 15%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+/* Estilos para la página principal */
+
+/* Estilos de la barra de navegación */
+.w3-bar {
+    overflow: hidden;
+}
+
+.w3-bar-item {
+    padding: 8px 16px;
+    float: left;
+}
+
+.w3-bar-item:hover {
+    background-color: #f1f1f1;
+}
+
+.w3-right {
+    float: right !important;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #ffffff;
+}
+
+/* Estilos de las entradas del blog */
+.w3-container.blog-entry {
+    margin: 16px 0;
+    padding: 24px;
+    background-color: #fff;
+}
+
+.w3-button{
+    background-color: #ffd700; 
+    border: 0.3px;
+}
+
+.w3-yl{
+    background-color: #ffd700; 
+    color: #000;
+}
+
+/* Estilos de la barra lateral */
+.w3-white.sidebar {
+    padding: 24px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 16px;
+}

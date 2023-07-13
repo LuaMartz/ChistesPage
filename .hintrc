@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/aria-allowed-attr": "warning",
+    "axe/aria-hidden-body": "warning",
+    "axe/aria-hidden-focus": "warning",
+    "axe/aria-input-field-name": "warning",
+    "axe/aria-valid-attr-value": "warning",
+    "color-contrast": [
+      "error",
+      {
+        "noScrollbars": true
+      }
+    ],
+    "html-has-lang": "error",
+    "link-name": "warning",
+    "no-heading-less-than-h1": "error",
+    "no-multiple-main": "error",
+    "no-slow-favicon": "warning",
+    "no-slow-scripts": "warning",
+    "no-slow-stylesheets": "warning",
+    "axe/parsing": [
+      "off",
+      {
+        "duplicate-id-active": "off"
+      }
+    ],
+    "button-type": "off",
+    "no-inline-styles": "off"
+  }
+}
